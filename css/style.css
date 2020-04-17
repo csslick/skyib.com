@@ -10,6 +10,7 @@ ul { list-style-type: none;}
 body {
   font-size: 18px;
   font-family: 'Nanum Gothic', sans-serif;
+  min-width: 1200px;
 }
 
 .header_wrap {
@@ -43,17 +44,29 @@ body {
 /* 비주얼 */
 #visual {
   position: relative;
+  height: 650px;
+  outline: 2px solid red;
+  overflow: hidden;
 }
 #visual > .img {
+  position: absolute;
+  left: 0; top: 0;
   width: 1920px;
+  height: 650px;
   margin: 0 auto;
+  left: 50%;
+  margin-left: -960px;
+  
 }
 #visual_pager {
   width: 1200px;
-  margin: 0 auto;
   outline: 2px solid red;
   overflow: hidden;
   background: #0b223c;
+  position: absolute;
+  left: 50%; right: 0;
+  margin-left: -600px;
+  bottom: 0;
 }
 #visual_pager > a {
   display: block;

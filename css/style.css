@@ -1,0 +1,73 @@
+/* style.css */
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+a { text-decoration: none;}
+ul { list-style-type: none;}
+
+body {
+  font-size: 18px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.header_wrap {
+  box-shadow: 0px 1px 8px rgba(0,0,0,0.1);
+}
+
+#main_header {
+  width: 1200px; height: 100px;
+  position: relative;
+  /* background: #ccc; */
+  margin: 0 auto;
+
+}
+#main_header > h1 {
+  position: absolute;
+  left: 0; top: 18px;
+}
+#gnb {
+  position: absolute;
+  right: 0; top: 40px;
+}
+#gnb > ul > li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#gnb > ul > li:last-child { margin-right: 0;}
+
+#gnb > ul > li a { color: #333; }
+
+/* 비주얼 */
+#visual {
+  position: relative;
+}
+#visual > .img {
+  width: 1920px;
+  margin: 0 auto;
+}
+#visual_pager {
+  width: 1200px;
+  margin: 0 auto;
+  outline: 2px solid red;
+  overflow: hidden;
+  background: #0b223c;
+}
+#visual_pager > a {
+  display: block;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  height: 55px;
+  line-height: 55px;
+  color: #fff;
+}
+#visual_pager > a:hover {
+  background: #f58020;
+}
+
+#visual .container-full {
+  background: #0b223c;
+}

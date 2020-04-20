@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- 제이쿼리 라이브러리 -->
   <script src="js/jquery-3.5.0.min.js"></script>
+  <!-- 사용자 자바스크립트 -->
+  <script src="js/main.js"></script>
 </head>
 <body>
   <div class="header_wrap">
@@ -30,16 +32,134 @@
   <section id="visual">
     <div class="img">
       <img src="images/vis1.jpg" alt="visual">
+      <img src="images/vis2.jpg" alt="visual">
+      <img src="images/vis3.jpg" alt="visual">
     </div>
 
     <div class="container-full">
       <div id="visual_pager">
-        <a href="#">위대한 기업에 장기투자</a>
+        <a class="selected" href="#">위대한 기업에 장기투자</a>
         <a href="#">Middle-down Approach</a>
         <a href="#">자산운용전문 투자자문회사</a>
       </div>
     </div>
   </section>
 
+  <section id="notice">
+    <div class="notice-container">
+      <ul>
+        <li>
+          <p class="title">공지사항 <span>|</span></p>
+          <p class="text">스카이투자자문 '2020 KG제로인 대한민국 펀드어워즈 투자자문사 부분 최우수상' 수상</p>
+          <p class="date">2020.04.02</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- OPERTATION(운용시스템) 섹션 -->
+  <section id="operation">
+    <header>
+      <h2>operation</h2>
+      <p>운용시스템</p>
+    </header>
+    <div class="row">
+      <div class="col">
+        <img src="http://placeimg.com/386/212/tech/a" alt="1">
+        <div class="col-text">
+          <h3>투자철학</h3>
+          <p>스카이 투자자문의 투자철학에 대해 소개합니다.</p>
+        </div>
+        <div class="cover">
+          <h3>제목</h3>
+          <p>여기는 설명...</p>
+          <a href="#" class="btn-more">more+</a>
+        </div>
+      </div>
+      <div class="col">
+        <img src="http://placeimg.com/386/212/tech/b" alt="2">
+        <div class="col-text">
+          <h3>운용스타일</h3>
+          <p>스카이 투자자문의 운용스타일에 대해 소개합니다.</p>
+        </div>
+        <div class="cover">
+          <h3>제목</h3>
+          <p>여기는 설명...</p>
+          <a href="#" class="btn-more">more+</a>
+        </div>
+      </div>
+      <div class="col">
+        <img src="http://placeimg.com/386/212/tech/c" alt="3">
+        <div class="col-text">
+          <h3>운용상품</h3>
+          <p>스카이 투자자문의 운용상품에 대해 소개합니다.</p>
+        </div>
+        <div class="cover">
+          <h3>제목</h3>
+          <p>여기는 설명...</p>
+          <a href="#" class="btn-more">more+</a>
+        </div>
+      </div>
+    </div><!-- end row -->  
+  </section>
+
+  <!-- COMPANY(회사소개) -->
+  <div class="company-container-full">
+    <section id="company">
+      <header>
+        <h2>company</h2>
+        <p>회사소개</p>
+      </header>
+      <div class="row">
+        <div class="col">
+          <img src="http://placeimg.com/386/212/tech/d" alt="1">
+          <div class="col-text">
+            <h3>CEO 인사말</h3>
+            <a href="#" class="btn-more">more+</a>
+          </div>
+        </div>
+        <div class="col">
+          <img src="http://placeimg.com/386/212/tech/e" alt="1">
+          <div class="col-text">
+            <h3>인력소개</h3>
+            <a href="#" class="btn-more">more+</a>
+          </div>
+        </div>
+        <div class="col">
+          <img src="http://placeimg.com/386/212/tech/f" alt="1">
+          <div class="col-text">
+            <h3>회사소개</h3>
+            <a href="#" class="btn-more">more+</a>
+          </div>
+        </div>
+
+
+
+      </div><!-- end row -->  
+    </section>
+  </div><!-- end container-full -->
+
+  <footer id="main_footer">
+    <nav id="footer_menu">
+      <ul>
+        <li><a href="#">회사소개</a></li>
+        <li><a href="#">오시는길</a></li>
+        <li><a href="#">이메일무단수집거부</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+      <a href="#" class="btn-top">top</a>
+    </nav>
+    <div class="footer_info">
+      <img src="images/flogo.gif" alt="footer logo">
+      <address>
+        <b>회사명</b>
+        <span>주소: 서울시 영등포구 123-4</span>
+        <span>전화번호: 02-1234-5678</span>
+        <span>팩스: 02-1234-5555</span>
+        <span>이메일: admin@company.com</span>
+      </address>
+      <p class="copy">COPYRIGHT &copy; 회사명 ALL RIGHT RESERVED</p>
+    </div>
+  </footer>
 </body>
 </html>
